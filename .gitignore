@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+
+# Hardhat & Remix build outputs
+artifacts/
+cache/
+.states/
+
+# TypeScript build
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
+
