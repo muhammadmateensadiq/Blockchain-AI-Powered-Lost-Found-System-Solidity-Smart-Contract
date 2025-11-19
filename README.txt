@@ -1,8 +1,10 @@
-# Blockchain Prototype for AI-Powered Lost & Found Platform
+# LostAndFoundChain Blockchain Prototype
 
-Smart contract accompanying the research paper:  
-*"Blockchain and AI-Based Platform for Managing Lost and Found Items in Public Places"*  
-– Muhammad Mateen Sadiq, 2025
+**LostAndFoundChain** is a prototype smart contract for the Blockchain and AI-Based Platform for Managing Lost and Found Items.
+
+## Structure
+- `contracts/LostAndFoundChain.sol`: The main Solidity smart contract executed in Remix IDE.
+- `scripts/deploy_with_ethers.ts`: Script for deploying the contract using ethers.js (tested on testnets).
 
 ---
 
@@ -12,3 +14,7 @@ Smart contract accompanying the research paper:
 2. Create a new file → paste `LostAndFoundChain.sol`
 3. Compile with **Solidity 0.8.24**
 4. Deploy on **Remix VM** or **Injected Provider** (MetaMask + Sepolia/Polygon)
+
+No on-chain verification performed; this is a simulation prototype.
+
+Author: Muhammad Mateen Sadiq
